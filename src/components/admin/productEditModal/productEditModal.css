@@ -1,0 +1,27 @@
+.product-card{
+    display: flex;
+    align-items: flex-start;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    label{
+        width: 40%;
+    }
+    input {
+        width: 60%;
+    }
+
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.carousel{
+    margin-top: 10px;
+}

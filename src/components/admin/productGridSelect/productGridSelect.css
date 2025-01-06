@@ -1,0 +1,9 @@
+.container-select{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    .check-select{
+        transform: scale(1.5);
+    }
+
+}

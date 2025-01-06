@@ -1,0 +1,44 @@
+.navbar-container{
+    background-color: #8A9597;
+    
+    nav {
+        width: 100%;
+    }
+  
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  
+    li {
+        width: 125px;
+        height: 50px;
+        margin: 10px;
+        a {
+            display: flex;
+            /* Para poder centrar el texto en el a vertical y horizontalmente */
+            align-items: center;
+            justify-content: center;
+  
+            width: 100%;
+            height: 100%;
+  
+            text-decoration: none;
+            color: white;
+            font-size: x-large;
+            font-family: 'Lora';
+  
+            /* Si pone un texto muy largo */
+            overflow: hidden;
+        }
+  
+        a:hover {
+            border-bottom: 2px solid white;
+            padding-bottom: 0px;
+        }
+    }
+}  

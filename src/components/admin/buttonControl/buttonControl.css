@@ -1,0 +1,11 @@
+.control-navbar{
+    margin: 1%;
+}
+.control-grid{
+    margin: 1%;
+
+    button {
+        margin-right: 10px;
+    }
+}
+

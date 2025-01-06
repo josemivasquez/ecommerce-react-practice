@@ -1,0 +1,15 @@
+
+.button-local {
+    margin-top: 0px; 
+    /* margin-bottom: 0px; */
+    /* margin: 0px */
+}
+
+.container-select{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
